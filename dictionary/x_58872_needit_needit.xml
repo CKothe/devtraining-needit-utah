@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="0a08a4d51b1e211010b4a9f9bc4bcb83" extends="task" label="NeedIT" max_length="40" name="x_58872_needit_needit" type="collection">
+    <element audit="true" db_object_id="0a08a4d51b1e211010b4a9f9bc4bcb83" extends="task" label="NeedIT" max_length="40" name="x_58872_needit_needit" type="collection">
         <element attributes="encode_utf8=false" label="Reguested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="legal" label="Request type" mandatory="true" max_length="40" name="u_request_type" type="string">
             <choice>
